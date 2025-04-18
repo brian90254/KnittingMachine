@@ -18,8 +18,10 @@ $fn = 50;
 STANDARD_GAUGE = 4.5;
 MID_GAUGE = 6.5;
 BULKY_GAUGE = 9.0;
+BRIAN_GAUGE = 7.75;
 
-gauge = STANDARD_GAUGE; // I recommend using one of the predefined gauges above
+gauge = BRIAN_GAUGE;
+// gauge = STANDARD_GAUGE; // I recommend using one of the predefined gauges above
 numNeedles = 25;
 tolerance = 0.2; // allows a bit of room for parts that have to fit together; adjust according to your printer's precision
 
